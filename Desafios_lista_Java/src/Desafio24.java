@@ -22,7 +22,7 @@ public class Desafio24 {
         System.out.println("O volume do cilindro é :" + " " + v + "m³");
     }
 
-    public static void man(String[] args) {
+    public static void main(String[] args) {
         Desafio24 desafio24;
         desafio24 = new Desafio24();
         desafio24.Executar();
