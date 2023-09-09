@@ -11,7 +11,7 @@ public class Desafio12 {
 
     public void Executar() {
         int qtdA;
-        List lista = new ArrayList();
+        List<String> lista = new ArrayList();
         String Nome;
 
         Scanner sc = new Scanner(System.in);

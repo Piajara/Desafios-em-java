@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Desafio24 {
+
     public Desafio24() {
 
     }
@@ -16,7 +17,7 @@ public class Desafio24 {
         System.out.println("Informe a altura do cilindro em metros:");
         alt = sc.nextFloat();
 
-        ab = Math.PI * Math.sqrt(r);
+        ab = Math.PI * (Math.sqrt(r));
         v = ab * alt;
 
         System.out.println("O volume do cilindro é :" + " " + v + "m³");
@@ -27,4 +28,5 @@ public class Desafio24 {
         desafio24 = new Desafio24();
         desafio24.Executar();
     }
+
 }
